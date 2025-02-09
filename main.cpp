@@ -22,9 +22,9 @@ double calcularTarifa(int horas, int dia) {
 
     // Validar límite de horas
     if (horas > LIMITE_HORAS) {
-        cout << "ERROR"<< endl;
         return -1;
     }
+
 
     double totalPagar = 0.0;
 
